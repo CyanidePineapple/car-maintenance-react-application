@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './AuthContext';
-import Login from './Login';
-import Register from './Register';
+import { AuthProvider } from './authContext';
+import Login from './login';
+import Register from './register';
 import Main from './Main';
 
 const App = () => {
